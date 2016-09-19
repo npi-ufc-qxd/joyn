@@ -1,0 +1,19 @@
+{
+  "name": "join-server",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "bcrypt": "*",
+    "body-parser": "*",
+    "express": "*",
+    "mongoose": "*",
+    "multer": "^1.2.0",
+    "morgan": "*"
+  },
+  "devDependencies": {
+    "qr-image": "~3.1.0"
+  }
+}
