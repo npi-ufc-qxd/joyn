@@ -18,17 +18,15 @@ var userSchema = mongoose.Schema({
     score: {
         type: Number
     },
-    create_date : {
-        type: Date,
-        default: Date.now()
-    }
+    captured_codes: [{type: mongoose.Schema.Types.ObjectId, ref: 'Code'}]
 });
 
 var User = module.exports = mongoose.model('User', userSchema);
 
 //Get Users
 module.exports.getUsers = function(callback, limit){
-    User.find(callback).limit(limit);
+    var populateQuery = 'captured_codes';
+    User.find(callback).limit(limit).populate(populateQuery);
 };
 
 //Get Users by ID

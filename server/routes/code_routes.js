@@ -1,46 +1,46 @@
 var express = require('express');
 var router = express.Router();
 
-User = require('../models/user');
+Code = require('../models/code');
 
-//get all users
-router.get('/users', function(req, res){
-    User.getUsers(function(err, users){
+//get all codes
+router.get('/codes', function(req, res){
+    Code.getCodes(function(err, codes){
         if(err){
             res.json({
                 error: err.status,
                 message: err.message
             });
         }
-        res.json(users);
+        res.json(codes);
     });
 });
 
-//get user by id
-router.get('/users/:_id', function(req, res){
-    User.getUserById(req.params._id, function(err, user){
+//get code by id
+router.get('/codes/:_id', function(req, res){
+    Code.getCodeById(req.params._id, function(err, code){
         if(err){
             res.json({
                 error: err.status,
                 message: err.message
             });
         }
-        res.json(user);
+        res.json(code);
     });
 });
 
-//add user
-router.post('/users', function(req, res){
+//add code
+router.post('/codes', function(req, res){
     console.log(req);
-    var user = req.body;
-    User.addUser(user, function(err, user_retorno){
+    var code = req.body;
+    Code.addCode(code, function(err, code_return){
         if(err){
             res.json({
                 error: err.status,
                 message: err.message
             });
         }
-        res.json(user_retorno);
+        res.json(code_return);
     });
 });
 

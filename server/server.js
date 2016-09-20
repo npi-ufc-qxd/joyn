@@ -41,10 +41,14 @@ router.get('/qrcode', function(req, res){
 });
 
 var user = require('./routes/user_routes');
+var code = require('./routes/code_routes');
+var event = require('./routes/event_routes');
 
 //USANDO O ROTEADOR
 app.use('/api', router);
 app.use('/api', user);
+app.use('/api', code);
+app.use('/api', event);
 
 
 //HTTP SERVER E DEPOIS USA A PORTA 8080

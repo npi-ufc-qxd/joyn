@@ -6,10 +6,11 @@ var eventSchema = mongoose.Schema({
         type: String,
         required: true
     },
-    descricao: {
+    description: {
         type: String,
         required: true
-    }
+    },
+    codes: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Code'}]
 });
 
 var Event = module.exports = mongoose.model('Event', eventSchema);
@@ -35,8 +36,18 @@ module.exports.addEvent = function(event, callback){
     Event.create(event, callback);
 };
 
+//update event
+module.exports.updateEvent = function(id, event, options, callback){
+    var query = {_id: id};
+    var update = {
+        name: event.name,
+        description: event.description
+    };
+    Event.findOneAndUpdate(query, update, options, callback);
+};
+
 //Delete Event
-module.exports.deleteGame = function(id, callback){
+module.exports.deleteEvent = function(id, callback){
     var query = {_id: id};
     Event.remove(query, callback);
 };
