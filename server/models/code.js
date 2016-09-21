@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 
 var codeSchema = mongoose.Schema({
-    code: {
+    name: {
         type: String,
         required: true,
         index: {unique: true}

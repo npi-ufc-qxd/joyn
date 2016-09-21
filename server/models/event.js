@@ -10,6 +10,11 @@ var eventSchema = mongoose.Schema({
         type: String,
         required: true
     },
+    sigla: {
+        type: String,
+        required: true,
+        index:{unique: true}
+    },
     codes: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Code'}]
 });
 
