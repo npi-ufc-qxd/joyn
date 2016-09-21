@@ -1,0 +1,9 @@
+<form ng-controller="EventCtrl">
+    <label for="name">Nome</label>
+    <input id="name" type="text" ng-model="Event.name">
+
+    <label for="description">Descrição</label>
+    <textarea id="description" type="text" ng-model="Event.description"></textarea>
+
+    <button type="button" ng-click="addEvent(Event)">Go!</button>
+</form>
