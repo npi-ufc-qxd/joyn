@@ -1,2 +1,35 @@
-<button ui-sref="app.addEvent">Adicionar</button>
-<button ui-sref="app.seeEvents">Visualizar</button>
+
+<div class="row">
+    <div id="login-page" class="col s3 z-depth-4 card-panel">
+        <form class="login-form" ng-submit="autenticar(usuario, senha)">
+
+            <div class="row margin">
+                <div class="input-field col s12">
+                    <i class="mdi-social-person-outline prefix"></i>
+                    <input id="username" type="text" ng-model="usuario">
+                    <label for="username" class="center-align" >Username</label>
+                </div>
+            </div>
+            <div class="row margin">
+                <div class="input-field col s12 ">
+                    <i class="mdi-action-lock-outline prefix"></i>
+                    <input id="password" type="password" ng-model="senha">
+                    <label for="password">Password</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s12">
+                    <button type="submit" class="btn waves-effect  teal lighten-1 waves-light col s12">Login</button>
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+    <div class="col s9">
+        <h1 class="thin login-title">JOYN DASHBOARD</h1>
+    </div>
+</div>
+
+

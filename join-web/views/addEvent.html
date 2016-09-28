@@ -1,9 +1,47 @@
-<form ng-controller="EventCtrl">
-    <label for="name">Nome</label>
-    <input id="name" type="text" ng-model="Event.name">
+<div class="row">
+    <div class="col s12">
+        <h1 class="thin center">Novo Evento</h1>
+    </div>
+</div>
+<div class="row">
 
-    <label for="description">Descrição</label>
-    <textarea id="description" type="text" ng-model="Event.description"></textarea>
-
-    <button type="button" ng-click="addEvent(Event)">Go!</button>
-</form>
+<!--Basic Form-->
+<div id="basic-form" class="section ">
+    <div class="row">
+        <div class="col s12 m12 l12">
+            <div class="card-panel">
+                <h4 class="header2"></h4>
+                <div class="row">
+                    <form class="col s12" ng-submit="addEvent(Event)" ng-controller="EventCtrl">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="sigla" type="text" ng-model="Event.sigla">
+                                <label for="sigla">SIGLA</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="name" type="text" ng-model="Event.name">
+                                <label for="name">Name</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea id="description" class="materialize-textarea" ng-model="Event.description"></textarea>
+                                <label for="description">Descrição</label>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <button class="btn cyan waves-effect waves-light right" type="submit" name="action">Submit
+                                        <i class="mdi-content-send right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

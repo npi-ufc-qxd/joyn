@@ -2,317 +2,94 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e154da2f-6993-4848-a55f-3dfa35460b82" name="Default" comment="Adicionado o Teste Web">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular/angular.min.js.gzip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/js/controllers/eventCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/js/services/eventService.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/common.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/common.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/coreservices.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/coreservices.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/coreservices.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/glob.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/glob.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/glob.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/hof.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/hof.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/hof.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/interface.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/interface.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/interface.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/module.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/module.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/predicates.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/predicates.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/predicates.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/queue.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/queue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/queue.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/strings.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/strings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/strings.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/trace.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/trace.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/common/trace.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/core.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/core.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/globals.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/globals.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/globals.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/hooks/lazyLoadStates.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/hooks/lazyLoadStates.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/hooks/lazyLoadStates.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/hooks/onEnterExitRetain.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/hooks/onEnterExitRetain.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/hooks/onEnterExitRetain.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/hooks/redirectTo.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/hooks/redirectTo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/hooks/redirectTo.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/hooks/resolve.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/hooks/resolve.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/hooks/resolve.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/hooks/url.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/hooks/url.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/hooks/url.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/hooks/views.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/hooks/views.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/hooks/views.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/directives/stateDirectives.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/directives/stateDirectives.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/directives/stateDirectives.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/directives/viewDirective.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/directives/viewDirective.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/directives/viewDirective.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/interface.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/interface.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/interface.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/legacy/resolveService.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/legacy/resolveService.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/legacy/resolveService.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/legacy/stateEvents.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/legacy/stateEvents.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/legacy/stateEvents.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/services.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/services.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/services.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/stateFilters.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/stateFilters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/stateFilters.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/statebuilders/onEnterExitRetain.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/statebuilders/onEnterExitRetain.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/statebuilders/onEnterExitRetain.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/statebuilders/views.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/statebuilders/views.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/statebuilders/views.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/templateFactory.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/templateFactory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/templateFactory.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/viewScroll.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/viewScroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/ng1/viewScroll.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/params/interface.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/params/interface.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/params/interface.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/params/module.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/params/module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/params/module.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/params/param.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/params/param.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/params/param.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/params/paramTypes.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/params/paramTypes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/params/paramTypes.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/params/stateParams.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/params/stateParams.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/params/stateParams.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/params/type.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/params/type.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/params/type.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/path/module.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/path/module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/path/module.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/path/node.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/path/node.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/path/node.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/path/pathFactory.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/path/pathFactory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/path/pathFactory.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/resolve/interface.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/resolve/interface.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/resolve/interface.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/resolve/module.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/resolve/module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/resolve/module.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/resolve/resolvable.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/resolve/resolvable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/resolve/resolvable.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/resolve/resolveContext.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/resolve/resolveContext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/resolve/resolveContext.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/router.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/router.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/interface.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/interface.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/interface.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/module.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/module.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/state.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/state.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/stateBuilder.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/stateBuilder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/stateBuilder.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/stateMatcher.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/stateMatcher.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/stateMatcher.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/stateObject.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/stateObject.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/stateObject.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/stateQueueManager.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/stateQueueManager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/stateQueueManager.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/stateRegistry.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/stateRegistry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/stateRegistry.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/stateService.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/stateService.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/stateService.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/targetState.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/targetState.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/state/targetState.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/transition/hookBuilder.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/transition/hookBuilder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/transition/hookBuilder.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/transition/hookRegistry.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/transition/hookRegistry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/transition/hookRegistry.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/transition/interface.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/transition/interface.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/transition/interface.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/transition/module.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/transition/module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/transition/module.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/transition/rejectFactory.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/transition/rejectFactory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/transition/rejectFactory.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/transition/transition.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/transition/transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/transition/transition.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/transition/transitionHook.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/transition/transitionHook.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/transition/transitionHook.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/transition/transitionService.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/transition/transitionService.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/transition/transitionService.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/url/module.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/url/module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/url/module.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/url/urlMatcher.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/url/urlMatcher.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/url/urlMatcher.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/url/urlMatcherConfig.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/url/urlMatcherConfig.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/url/urlMatcherConfig.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/url/urlMatcherFactory.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/url/urlMatcherFactory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/url/urlMatcherFactory.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/url/urlRouter.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/url/urlRouter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/url/urlRouter.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/view/interface.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/view/interface.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/view/interface.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/view/module.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/view/module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/view/module.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/view/view.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/view/view.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/commonjs/view/view.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/release/angular-ui-router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/release/angular-ui-router.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/release/angular-ui-router.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/release/angular-ui-router.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/release/stateEvents.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/release/stateEvents.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/release/stateEvents.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/release/stateEvents.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/common/common.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/common/coreservices.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/common/glob.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/common/hof.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/common/interface.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/common/module.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/common/predicates.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/common/queue.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/common/strings.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/common/trace.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/core.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/globals.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/hooks/lazyLoadStates.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/hooks/onEnterExitRetain.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/hooks/redirectTo.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/hooks/resolve.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/hooks/url.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/hooks/views.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/ng1.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/ng1/directives/stateDirectives.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/ng1/directives/viewDirective.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/ng1/interface.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/ng1/legacy/resolveService.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/ng1/legacy/stateEvents.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/ng1/services.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/ng1/stateFilters.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/ng1/statebuilders/onEnterExitRetain.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/ng1/statebuilders/views.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/ng1/templateFactory.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/ng1/viewScroll.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/params/interface.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/params/module.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/params/param.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/params/paramTypes.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/params/stateParams.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/params/type.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/path/module.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/path/node.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/path/pathFactory.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/resolve/interface.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/resolve/module.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/resolve/resolvable.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/resolve/resolveContext.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/router.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/state/interface.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/state/module.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/state/state.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/state/stateBuilder.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/state/stateMatcher.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/state/stateObject.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/state/stateQueueManager.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/state/stateRegistry.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/state/stateService.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/state/targetState.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/transition/hookBuilder.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/transition/hookRegistry.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/transition/interface.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/transition/module.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/transition/rejectFactory.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/transition/transition.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/transition/transitionHook.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/transition/transitionService.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/url/module.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/url/urlMatcher.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/url/urlMatcherConfig.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/url/urlMatcherFactory.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/url/urlRouter.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/view/interface.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/view/module.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular-ui-router/src/view/view.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular/angular-csp.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular/angular.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/node_modules/angular/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/views/addEvent.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/views/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/views/seeEvents.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/font/material-design-icons/Material-Design-Icons.eot?" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/font/material-design-icons/Material-Design-Icons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/font/material-design-icons/Material-Design-Icons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/font/roboto/Roboto-Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/font/roboto/Roboto-Bold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/font/roboto/Roboto-Light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/font/roboto/Roboto-Light.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/font/roboto/Roboto-Medium.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/font/roboto/Roboto-Medium.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/font/roboto/Roboto-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/font/roboto/Roboto-Regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/font/roboto/Roboto-Thin.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/font/roboto/Roboto-Thin.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/images/avatar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/images/favicon/apple-touch-icon-152x152.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/images/favicon/favicon-32x32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/images/generic-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/images/login-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/images/materialize-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/images/office.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/images/sample-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/images/signature-scan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/images/style_typography_roboto.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/images/user-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/data-tables/images/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/data-tables/images/sort_asc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/data-tables/images/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/data-tables/images/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/data-tables/images/sort_desc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/controllers/loginCtrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/services/codesService.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/services/login-service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/css/joyn.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/css/materialize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/css/page-center.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/css/prism.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/font/material-design-icons/Material-Design-Icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/jquery-1.11.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/materialize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/materialize.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/chartist-js/chartist-script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/chartist-js/chartist.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/chartist-js/chartist.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/chartjs/chart-script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/chartjs/chart.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/chartjs/chartjs-sample-chart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/d3/d3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/data-tables/css/jquery.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/data-tables/data-tables-script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/data-tables/js/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/flot-chart/flot-script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/flot-chart/jquery.flot.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/flot-chart/jquery.flot.pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/flot-chart/jquery.flot.stack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/flot-chart/jquery.flot.time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/fullcalendar/css/fullcalendar.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/fullcalendar/fullcalendar-script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/fullcalendar/js/fullcalendar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/fullcalendar/lib/jquery-ui.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/fullcalendar/lib/moment.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/jvectormap/jquery-jvectormap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/jvectormap/vectormap-script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/morris-chart/morris-script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/morris-chart/morris.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/morris-chart/morris.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/perfect-scrollbar/perfect-scrollbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/perfect-scrollbar/perfect-scrollbar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/sparkline/jquery.sparkline.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/sparkline/sparkline-script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/xcharts/xcharts-script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/xcharts/xcharts.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/plugins/xcharts/xcharts.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/prism.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/static/js/raphael-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/join-web/views/codesEvent.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/join-web/js/app.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/join-web/js/controllers/eventCtrl.js" afterPath="$PROJECT_DIR$/join-web/controllers/eventCtrl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/join-web/js/services/eventService.js" afterPath="$PROJECT_DIR$/join-web/services/eventService.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/join-web/index.html" afterPath="$PROJECT_DIR$/join-web/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/join-web/views/addEvent.html" afterPath="$PROJECT_DIR$/join-web/views/addEvent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/join-web/views/home.html" afterPath="$PROJECT_DIR$/join-web/views/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/join-web/views/seeEvents.html" afterPath="$PROJECT_DIR$/join-web/views/seeEvents.html" />
     </list>
     <ignored path="join.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -334,12 +111,13 @@
     <favorites_list name="join" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package_json" />
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
@@ -377,6 +155,23 @@
         <option value="$PROJECT_DIR$/server/routes/event_routes.js" />
         <option value="$PROJECT_DIR$/server/models/event.js" />
         <option value="$PROJECT_DIR$/server/models/code.js" />
+        <option value="$PROJECT_DIR$/join-web/js/controllers/LoginCtrl.js" />
+        <option value="$PROJECT_DIR$/join-web/static/css/materialize.css" />
+        <option value="$PROJECT_DIR$/join-web/views/addEvent.html" />
+        <option value="$PROJECT_DIR$/join-web/views/home.html" />
+        <option value="$PROJECT_DIR$/join-web/static/css/joyn.css" />
+        <option value="$PROJECT_DIR$/join-web/js/controllers/eventCtrl.js" />
+        <option value="$PROJECT_DIR$/join-web/js/controllers/loginCtrl.js" />
+        <option value="$PROJECT_DIR$/join-web/js/services/login-service.js" />
+        <option value="$PROJECT_DIR$/join-web/js/services/eventService.js" />
+        <option value="$PROJECT_DIR$/join-web/js/app.js" />
+        <option value="$PROJECT_DIR$/join-web/index.html" />
+        <option value="$PROJECT_DIR$/join-web/services/eventService.js" />
+        <option value="$PROJECT_DIR$/join-web/controllers/eventCtrl.js" />
+        <option value="$PROJECT_DIR$/join-web/services/codesService.js" />
+        <option value="$PROJECT_DIR$/join-web/views/seeEvents.html" />
+        <option value="$PROJECT_DIR$/join-web/app.js" />
+        <option value="$PROJECT_DIR$/join-web/views/codesEvent.html" />
       </list>
     </option>
   </component>
@@ -387,12 +182,14 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/join-web/node_modules" />
     <handled-path value="$PROJECT_DIR$/server/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
     <option name="y" value="27" />
-    <option name="width" value="1440" />
-    <option name="height" value="873" />
+    <option name="width" value="1442" />
+    <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -419,6 +216,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -427,24 +225,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joyn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joyn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../joyn-2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
@@ -452,9 +239,14 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="editor.config.accepted" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/join-web" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/join-web/static" />
       <recent name="$PROJECT_DIR$/join/www" />
     </key>
   </component>
@@ -548,11 +340,14 @@
       <workItem from="1474473882025" duration="266000" />
       <workItem from="1474478108746" duration="416000" />
       <workItem from="1474481367419" duration="501000" />
+      <workItem from="1474993988910" duration="13788000" />
+      <workItem from="1475007981611" duration="132000" />
+      <workItem from="1475080523178" duration="6819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22370000" />
+    <option name="totallyTimeSpent" value="43109000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -564,25 +359,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1440" height="873" extended-state="6" />
+    <frame x="-1" y="27" width="1442" height="874" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2534722" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21111111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980132" sideWeight="0.49722221" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980132" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35989717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39975095" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35989717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39975095" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -608,118 +403,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/join-ionic/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/join-ionic/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/join-ionic/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="73" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/join-ionic/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/user_routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/join-ionic/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/join-ionic/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/join-ionic/www/templates/scan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/join-ionic/www/templates/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/join-ionic/www/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="76" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/join-ionic/www/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/join-ionic/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/join-ionic/www/templates/menu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -838,13 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/join-ionic/www/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/join-ionic/www/templates/menu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -873,20 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/join-ionic/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/join-ionic/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -894,41 +556,192 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/join-ionic/www/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/join-ionic/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/join-web/static/css/prism.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/join-web/node_modules/materialize-css/templates/parallax-template/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/routes/code_routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/join-web/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1746">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/join-web/static/css/materialize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="2558" column="38" selection-start-line="2558" selection-start-column="38" selection-end-line="2558" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/routes/user_routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="53" column="39" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/routes/event_routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1458">
-          <caret line="81" column="15" selection-start-line="81" selection-start-column="15" selection-end-line="81" selection-end-column="15" />
+        <state relative-caret-position="556">
+          <caret line="85" column="3" selection-start-line="85" selection-start-column="3" selection-end-line="85" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/join-web/static/css/joyn.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/join-web/views/addEvent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="14" column="90" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/join-web/controllers/loginCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#46#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/join-web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/join-web/services/login-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/join-web/views/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/join-web/controllers/eventCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/join-web/views/seeEvents.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="65" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/join-web/views/codesEvent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/models/code.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/code_routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/user_routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="44" column="3" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
+        <state relative-caret-position="198">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/models/event.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        <state relative-caret-position="306">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/join-web/services/eventService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/join-web/services/codesService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/join-web/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding />
         </state>
       </provider>
