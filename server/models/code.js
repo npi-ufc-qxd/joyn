@@ -31,3 +31,15 @@ module.exports.getCodeById = function(id, callback){
 module.exports.addCode = function(code, callback){
     Code.create(code, callback);
 };
+
+//Delete Code
+module.exports.deleteCode = function(id, callback){
+    var query = {_id: id};
+    Code.remove(query, callback);
+};
+
+//Get Code by code
+module.exports.getCodeByCode = function(code, callback){
+    var query = {code : code};
+    Code.find(query, callback);
+};

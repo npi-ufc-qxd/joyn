@@ -16,7 +16,7 @@ app.config(function($routeProvider) {
 
         .when("/codesEvent",{
             templateUrl: "views/codesEvent.html",
-            controller: "EventCtrl"
+            controller: "CodeCtrl"
         })
 
         .otherwise({

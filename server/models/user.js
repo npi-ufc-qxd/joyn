@@ -40,3 +40,16 @@ module.exports.addUser = function(user, callback){
     User.create(user, callback);
 };
 
+//Update Score
+module.exports.updateScore = function(id, score, options, callback){
+    var query = {id: id};
+    var update = {$inc : {score: score}};
+    User.findOneAndUpdate(query, update, options, callback);
+};
+
+//Update Codes
+module.exports.updateCodes = function(id, code, options, callback ){
+    var query = {id: id};
+    var update = {$push : {captured_codes: code}};
+    User.findOneAndUpdate(query, update, options, callback);
+};

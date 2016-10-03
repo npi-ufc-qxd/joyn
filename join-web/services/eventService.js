@@ -5,7 +5,7 @@
 angular.module('joynWeb')
     .constant('apiUrl', 'http://localhost:8080/api')
 
-    .service('eventService', function ($http, apiUrl, $log) {
+    .service('eventService', function ($http, apiUrl) {
         this.addEvent = function (event) {
           return $http.post(apiUrl +'/event', event);
         };

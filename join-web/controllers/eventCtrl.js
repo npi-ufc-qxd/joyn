@@ -14,6 +14,9 @@ angular.module('joynWeb')
             eventService.seeEvents().then(
                 function (res) {
                     $scope.events = res.data;
+                },
+                function (error) {
+                    console.log("erro")
                 }
             );
         },

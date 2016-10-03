@@ -24,20 +24,13 @@ var router = express.Router(); // CRIA O ROTEADOR
 router.use(function(req, res, next){
     res.header('Access-Control-Allow-Origin', "*");
     res.header('Access-Control-Allow-Methods', "GET,PUT,POST,DELETE");
-    res.header('Access-Control-Allow-Headers', "Content-Type");
+    res.header('Access-Control-Allow-Headers', "X-Requested-With,Content-Type");
     next();
 });
 
 //DIZER QUE TA FUNCIONANDO
 router.get('/', function(req, res){
     res.send('e ae galera');
-});
-
-//GERADOR DE QRCODE
-router.get('/qrcode', function(req, res){
-    var code = qr.image("Jeferson Kenedy", {type: 'svg'});
-    res.type('svg');
-    code.pipe(res);
 });
 
 var user = require('./routes/user_routes');
