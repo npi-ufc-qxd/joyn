@@ -1,63 +1,70 @@
-<!--Formulário de cadastro de código-->
-<h1 class="thin center-align"> Códigos do Evento</h1>
-<div class="col s12 m8 l9">
-    <div class="card-panel">
-        <h4 class="header2">Cadastrar novo código</h4>
-        <div class="row">
-            <form class="col s12" ng-submit="addCode(code)" ng-controller="CodeCtrl">
+<div class="row">
+    <div class="col s6">
+        <!--Formulário de cadastro de código-->
+        <h1 class="thin center-align"> Códigos do Evento</h1>
+        <div class="col s12">
+            <div class="card-panel">
+                <h4 class="header2">Cadastrar novo código</h4>
                 <div class="row">
-                    <div class="input-field col s12">
-                        <input id="name" type="text" ng-model="code.name">
-                        <label for="name">Nome</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <textarea id="desc" type="text" class="materialize-textarea" ng-model="code.desc"></textarea>
-                        <label for="desc">Descrição</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input id="score" type="text" ng-model="code.score">
-                        <label for="score">Score</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <button class="btn cyan waves-effect waves-light right" type="submit" name="action">Submit
-                                <i class="mdi-content-send right"></i>
-                            </button>
+                    <form class="col s12" ng-submit="addCode(code, idEvent)" ng-controller="CodeCtrl">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="name" type="text" ng-model="code.name">
+                                <label for="name">Nome</label>
+                            </div>
                         </div>
-                    </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea id="desc" type="text" class="materialize-textarea" ng-model="code.desc"></textarea>
+                                <label for="desc">Descrição</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="score" type="text" ng-model="code.score">
+                                <label for="score">Score</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <button class="btn cyan waves-effect waves-light right" type="submit" name="action">Cadastrar
+                                        <i class="mdi-content-send right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-            </form>
+            </div>
+        </div>
+    </div>
+    <div class="col s6">
+        <!--Listando os códigos do evento já cadastrados-->
+        <div ng-init="seeCodeByEvent()" ng-controller="CodeCtrl">
+            <div class="row col s12 listaCodigos">
+
+                    <ul class="collection" >
+                        <li style="height: auto" class="collection-item avatar" ng-repeat="code in codes">
+                            <img src="./static/images/qr-code-icon.png" alt="" class="circle">
+                            <span class="title">Nome: {{code.name}}</span>
+                            <p>Descrição: {{code.desc}}
+                                <br> Score: {{code.score}}
+                            </p>
+                            <a ng-click="deleteCode(code._id)" class="btn-floating waves-effect waves-light red secondary-content">
+                                <i class="mdi-content-clear"></i>
+                            </a>
+
+                        </li>
+                    </ul>
+
+
+            </div>
         </div>
     </div>
 </div>
 
 
-<!--Listando os códigos do evento já cadastrados-->
-<div ng-init="seeCodes()" ng-controller="CodeCtrl">
-    <div class="row col s12">
-        <div class=" row col s6">
-            <ul class="collection" >
-                <li style="height: auto" class="collection-item avatar" ng-repeat="code in codes">
-                    <img src="./static/images/qr-code-icon.png" alt="" class="circle">
-                    <span class="title">Nome: {{code.name}}</span>
-                    <p>Descrição: {{code.desc}}
-                        <br> Score: {{code.score}}
-                    </p>
-                    <a ng-click="deleteCode(code._id)" class="btn-floating waves-effect waves-light red secondary-content">
-                        <i class="mdi-content-clear"></i>
-                    </a>
 
-                    <p><a ng-click="gerarCode(code)" class="btn waves-effect waves-light teal" style="margin-top: 10px">
-                        Gerar QRCODE</a></p>
-                </li>
-            </ul>
 
-        </div>
-    </div>
-</div>
+

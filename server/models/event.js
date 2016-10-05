@@ -22,12 +22,14 @@ var Event = module.exports = mongoose.model('Event', eventSchema);
 
 //Get Events
 module.exports.getEvents = function(callback, limit){
-    Event.find(callback).limit(limit);
+    var populateQuery = 'codes';
+    Event.find(callback).limit(limit).populate(populateQuery);
 };
 
 //Get Events by Id
 module.exports.getEventById = function(id, callback){
-    Event.findById(id, callback);
+    var populateQuery = 'codes';
+    Event.findById(id, callback).populate(populateQuery);
 };
 
 //Get Event by Name
@@ -55,5 +57,19 @@ module.exports.updateEvent = function(id, event, options, callback){
 module.exports.deleteEvent = function(id, callback){
     var query = {_id: id};
     Event.remove(query, callback);
+};
+
+//PushCode To event
+module.exports.pushCode = function(id, code, options, callback ){
+    var query = {_id: id};
+    var update = {$push : {codes: code}};
+    Event.findOneAndUpdate(query, update, options, callback);
+};
+
+//delete code of an event
+module.exports.pullCode = function(id, code, options, callback){
+    var query = {_id: id};
+    var update = {$pull: {codes: code}};
+    Event.findOneAndUpdate(query, update, options, callback);
 };
 

@@ -14,8 +14,23 @@ angular.module('joynWeb')
             return $http.get(apiUrl + '/events');
         };
 
+        var eventId;
+
         this.deleteEvent = function (id) {
             $http.delete(apiUrl + '/event/' + id)
+                .then(
+                    function (res) {
+                        console.log("Deu certo");
+                        return true;
+                    }, function (err) {
+                        console.log("Ops! Algo deu errado.");
+                    }
+                );
+        },
+
+        this.codesEvent = function (id) {
+            console.log("QRCODE");
+            $http.codesEvent(apiUrl + '/qrcodes/' + id)
                 .then(
                     function (res) {
                         console.log("Deu certo");
@@ -36,5 +51,15 @@ angular.module('joynWeb')
                         console.log("Ops! Algo deu errado.");
                     }
                 );
-        }
+        },
+            
+        this.saveId = function (idEvent) {
+            eventId = idEvent;
+        };
+
+        this.getId = function(){
+            return eventId;
+        };
+
+
     });

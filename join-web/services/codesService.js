@@ -11,22 +11,17 @@ angular.module('joynWeb')
             return $http.get(apiUrl + '/qrcode/' + code.name);
         },
 
-        this.deleteCode = function (id) {
-            $http.delete(apiUrl + '/code/' + id)
-                .then(
-                    function (res) {
-                        console.log("Deu certo: "+res);
-                        return true;
-                    }, function (err) {
-                        console.log("Ops! Algo deu errado: ");
-                        $log.error(err)
-                        return false;
-                    }
-                );
+        this.deleteCode = function (idEvent, idCode) {
+            return $http.delete(apiUrl + '/event/'+ idEvent +'/code/'+ idCode);
+
         },
 
-        this.seeCodes = function () {
-            return $http.get(apiUrl + '/codes');
+        this.pushCode = function(code, eventId){
+            return $http.get(apiUrl+'/event/'+eventId+'/code/'+code);
+        },
+
+        this.seeCodeByEvent = function (idEvent) {
+            return $http.get(apiUrl + '/events/' +idEvent);
         }
     });
 

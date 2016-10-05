@@ -23,7 +23,9 @@
                 <div class="card-action cyan darken-3">
                     <a href="#" class=" red-text accent-3 text-accent-1" ng-click="deleteEvent(event._id)">Delete</a>
                     <a href="#" class="lime-text text-accent-1">Edit</a>
-                    <a href="#/codesEvent" class="white-text text-accent-1">Códigos</a>
+                    <a href="#/codesEvent/{{event._id}}" class="white-text text-accent-1" >Códigos</a>
+                    <a href="#/qrcodes/{{event._id}}">Lista de Qrcodes</a>
+                    {{event._id}}
                 </div>
             </div>
         </div>

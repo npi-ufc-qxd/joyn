@@ -3,58 +3,75 @@
  */
 
 angular.module('joynWeb')
-    .controller('CodeCtrl', function ($scope, $location, codeService, $log){
+    .controller('CodeCtrl', function ($scope, $location, codeService, $log, eventService, $routeParams, $route) {
         $scope.Code = {
             name: "",
             desc: "",
             score: 0
+        };
+
+        var eventId = $routeParams.id;
+
+        $scope.addCode = function (code) {
+            codeService.addCode(code).then(
+                function (res) {
+                    $log.info(res);
+                    console.log(res.data);
+                    codeService.pushCode(res.data._id, eventId).then(
+                        function (res) {
+                            $log.info(res);
+                            $scope.codes = res.data.codes;
+                            $route.reload();
+                        },
+                        function (error) {
+                            $log.error(error);
+                            console.log("vacilao")
+                        }
+                    )
+                    console.log("deu certo")
+                },
+                function (error) {
+                    $log.error(error);
+                    console.log("vacilao")
+                });
         },
 
-            $scope.addCode = function (code) {
-                codeService.addCode(code).then(
-                    function (res){
-                        $log.info(res);
-                        console.log("deu certo")
-                    },
-                    function(error){
-                        $log.error(error);
-                        console.log("vacilao")
-                    });
-            },
-
             $scope.deleteCode = function (id) {
-                var statusDeleted = codeService.deleteCode(id);
-                if(statusDeleted){
-                    log.info("Delete deu certo")
-                    seeCodes();
-                }
-
-            },
-
-            $scope.gerarCode = function (code) {
-                codeService.gerarCode(code).then(
-                    function (res){
-                        $log.info(res);
-                        console.log("deu certo")
-                    },
-                    function(error){
-                        $log.error(error);
-                        console.log("vacilao")
-                    });
-            },
-
-
-
-            $scope.seeCodes = function () {
-                codeService.seeCodes().then(
+                codeService.deleteCode(eventId, id).then(
                     function (res) {
-                        console.log("olaa")
                         $log.info(res)
-                        $scope.codes = res.data;
+                        $scope.codes = res.data.codes;
+                        $route.reload();
                     },
                     function (error) {
                         console.log("erro")
                     }
                 );
+
+            },
+
+            $scope.gerarCode = function (code) {
+                codeService.gerarCode(code).then(
+                    function (res) {
+                        $log.info(res);
+                        console.log("deu certo")
+                    },
+                    function (error) {
+                        $log.error(error);
+                        console.log("vacilao")
+                    });
+            },
+
+            $scope.seeCodeByEvent = function () {
+                codeService.seeCodeByEvent(eventId).then(
+                    function (res) {
+                        $log.info(res)
+                        $scope.codes = res.data.codes;
+                    },
+                    function (error) {
+                        console.log("erro")
+                    }
+                );
+
             }
-});
+    });

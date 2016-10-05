@@ -85,5 +85,36 @@ router.delete('/event/:_id', function(req, res){
     });
 });
 
+//push code to an event
+router.get('/event/:_id/code/:_codeId', function(req, res){
+    var event_id = req.params._id;
+    var code_id = req.params._codeId;
+    Event.pushCode(event_id, code_id, {}, function(err, e){
+        if(err){
+            res.json({
+                error: err.status,
+                message: err.message
+            });
+        }
+        if(e) res.json(e);
+    });
+});
+
+//delete code of an event
+router.delete('/event/:_id/code/:_codeId', function(req, res){
+
+    var event_id = req.params._id;
+    var code_id = req.params._codeId;
+    Event.pullCode(event_id, code_id, {}, function(err, e){
+        if(err){
+            res.json({
+                error: err.status,
+                message: err.message
+            });
+        }
+        if(e) res.json(e);
+    });
+});
+
 //
 module.exports = router;

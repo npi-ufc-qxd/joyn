@@ -1,0 +1,26 @@
+
+<h4 class="center-align">Lista de QrCodes</h4>
+<h4 class="thin center-align">Nome do Evento</h4>
+
+<div class="row">
+
+    <div ng-init="seeCodeByEvent()">
+        <div class="row col s12 listaCodigos">
+
+            <ul class="collection" >
+                <li style="height: auto" class="collection-item avatar" ng-repeat="code in codes">
+                    <img src="./static/images/qr-code-icon.png" alt="" class="circle">
+                    <span class="title">Nome: {{code.name}}</span>
+                    <p>Descrição: {{code.desc}}
+                        <br> Score: {{code.score}}
+                    </p>
+                    <img src="http://localhost:8080/api/qrcode/{{code.name}}" alt="Qrcode">
+
+                </li>
+            </ul>
+
+
+        </div>
+    </div>
+
+</div>
