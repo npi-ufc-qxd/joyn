@@ -1,5 +1,6 @@
 #login-page{
-    margin: 200px auto auto auto;
+    margin-left: 540px;
+    margin-top: 200px;
 }
 
 h1.login-title{
@@ -8,4 +9,8 @@ h1.login-title{
 
 .listaCodigos{
     margin-top: 150px;
+}
+
+#cards-event{
+    margin-left: 25%;
 }

@@ -1,0 +1,17 @@
+<!--Ranking-->
+
+<div class="row" ng-init="seeUsers()">
+     <h1 class="thin center-align">Ranking</h1>
+
+    <div class="col s12 m8 l9">
+        <ul class="collection">
+            <li class="collection-item avatar" ng-repeat="user in users | orderBy: '-score'">
+                <img src={{user.photo}} alt="" class="circle">
+                <h5 class="">#{{$index+1}} - {{user.name}}</h5>
+                <span class="secondary-content teal-text"> {{user.score}}</span>
+
+            </li>
+        </ul>
+
+    </div>
+</div>

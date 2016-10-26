@@ -3,12 +3,21 @@
  */
 angular.module('joynWeb')
     .controller('LoginCtrl', function ($scope, $location, login) {
-        $scope.autenticar = function (usuario, senha) {
-            var res = login.autenticar(usuario, senha);
-            if (res){
-                $location.path('/seeEvents');
-            } else{
-                alert('Vacilão');
-            }
+        $scope.autenticar = function (user) {
+            login.autenticar(user).then(
+                function (res) {
+                    if(res.data){
+                        console.log(res.data)
+                        console.log("logado com sucesso")
+                        $location.path('/seeEvents');
+                    } else {
+                        console.log("senha incorreta")
+                        $location.path('/');
+                    }
+                },
+                function (error) {
+                    console.log("Algo deu errado");
+                }
+            );
         }
     });

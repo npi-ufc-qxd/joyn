@@ -3,7 +3,7 @@
  */
 
 angular.module('joynWeb')
-    .controller('EventCtrl', function ($scope, $location, eventService, $log,$routeParams,codeService) {
+    .controller('EventCtrl', function ($scope, $location, eventService, $log,$routeParams,codeService,$route) {
         $scope.Event = {
             name: "",
             description: "",
@@ -34,10 +34,15 @@ angular.module('joynWeb')
 
             },
             $scope.deleteEvent = function (id) {
-                var statusDeleted = eventService.deleteEvent(id);
-                if (statusDeleted) {
-                    seeEvents();
-                }
+                eventService.deleteEvent(id).then(
+                    function (res) {
+                        $log.info(res);
+                        $location.path("/seeEvents")
+                    },
+                    function (error) {
+                        console.log("merda")
+                    }
+                )
 
             },
             $scope.saveId = function (id) {
@@ -49,7 +54,6 @@ angular.module('joynWeb')
                 codeService.seeCodeByEvent(eventId).then(
                     function (res) {
                         $log.info(res);
-                        // $scope.event =
                         $scope.codes = res.data.codes;
                     },
                     function (error) {

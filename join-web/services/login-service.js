@@ -1,14 +1,9 @@
 angular.module('joynWeb')
-    .service('login', function () {
-        var thisusuario = "JK";
-        var thissenha = "ufc";
+    .constant('apiUrl', 'https://joynapp.herokuapp.com/api')
 
-        this.autenticar = function (usuario, senha ) {
+    .service('login', function ($http, apiUrl) {
 
-            if(thisusuario === usuario){
-                if(thissenha === senha){
-                    return true;
-                } else return false;
-            } else return false;
+        this.autenticar = function (user) {
+           return $http.post(apiUrl + '/authorize/login', user)
         }
     });

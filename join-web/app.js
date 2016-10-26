@@ -24,10 +24,10 @@ app.config(function($routeProvider) {
             controller: "EventCtrl"
         })
 
-        // .when("/qrcodes/:event_id",{
-        //     templateUrl: "views/showQrcodes.html",
-        //     controller: "EventCtrl"
-        // })
+        .when("/ranking/:id", {
+            templateUrl: "views/ranking.html",
+            controller: "CodeCtrl"
+        })
 
         .otherwise({
             redirectTo: "/"

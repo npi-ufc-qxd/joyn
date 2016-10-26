@@ -9,7 +9,7 @@ angular.module('joynWeb')
             desc: "",
             score: 0
         };
-
+        $scope.showUsers = false;
         var eventId = $routeParams.id;
 
         $scope.addCode = function (code) {
@@ -34,7 +34,7 @@ angular.module('joynWeb')
                     $log.error(error);
                     console.log("vacilao")
                 });
-        },
+        };
 
             $scope.deleteCode = function (id) {
                 codeService.deleteCode(eventId, id).then(
@@ -48,7 +48,7 @@ angular.module('joynWeb')
                     }
                 );
 
-            },
+            };
 
             $scope.gerarCode = function (code) {
                 codeService.gerarCode(code).then(
@@ -60,7 +60,7 @@ angular.module('joynWeb')
                         $log.error(error);
                         console.log("vacilao")
                     });
-            },
+            };
 
             $scope.seeCodeByEvent = function () {
                 codeService.seeCodeByEvent(eventId).then(
@@ -73,5 +73,37 @@ angular.module('joynWeb')
                     }
                 );
 
+            };
+
+            $scope.seeUsers = function () {
+                codeService.getUsers().then(
+                    function (res) {
+                        $scope.users = res.data;
+                        $scope.Event = eventService.getEventById(eventId).then(
+                            function(res){
+                                $scope.Event = res.data;
+                                if(!res.data){
+                                    for(var u in $scope.users){
+                                        for(var c in $scope.Event.codes){
+                                            if(u.captured_codes[0]._id === c._id){
+                                                $scope.showUsers = true;
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            function (error) {
+                                console.log("vacilao")
+                            }
+                        );
+
+                        console.log("Ranking okay!")
+                    },
+                    function (error) {
+                        console.log("papangu")
+                    }
+                );
             }
+
+
     });
