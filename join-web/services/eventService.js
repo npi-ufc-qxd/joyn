@@ -3,7 +3,7 @@
  */
 
 angular.module('joynWeb')
-    .constant('apiUrl', 'http://localhost:8080/api')
+    .constant('apiUrl', 'https://joynapp.herokuapp.com/api')
 
     .service('eventService', function ($http, apiUrl) {
         this.addEvent = function (event) {
@@ -17,15 +17,7 @@ angular.module('joynWeb')
         var eventId;
 
         this.deleteEvent = function (id) {
-            $http.delete(apiUrl + '/event/' + id)
-                .then(
-                    function (res) {
-                        console.log("Deu certo");
-                        return true;
-                    }, function (err) {
-                        console.log("Ops! Algo deu errado.");
-                    }
-                );
+            return $http.delete(apiUrl + '/event/' + id);
         },
 
         this.codesEvent = function (id) {
@@ -60,6 +52,9 @@ angular.module('joynWeb')
         this.getId = function(){
             return eventId;
         };
-
+        
+        this.getEventById = function (idEvent) {
+            return $http.get(apiUrl + '/events/' +idEvent);
+        }
 
     });

@@ -12,9 +12,7 @@
 
 
         </div>
-        <div ng-controller="EventCtrl" ng-repeat="event in events" class="col s4">
-
-
+        <div id="cards-event" ng-controller="EventCtrl" ng-repeat="event in events" class="col s6">
             <div class="card cyan">
                 <div class="card-content">
                     <span class="card-title ">{{event.name}}</span>
@@ -22,10 +20,10 @@
                 </div>
                 <div class="card-action cyan darken-3">
                     <a href="#" class=" red-text accent-3 text-accent-1" ng-click="deleteEvent(event._id)">Delete</a>
-                    <a href="#" class="lime-text text-accent-1">Edit</a>
-                    <a href="#/codesEvent/{{event._id}}" class="white-text text-accent-1" >Códigos</a>
-                    <a href="#/qrcodes/{{event._id}}">Lista de Qrcodes</a>
-                    {{event._id}}
+                    <a href="#/codesEvent/{{event._id}}" class="lime-text lighten-3" >Códigos</a>
+                    <a href="#/qrcodes/{{event._id}}" class="lime-text lighten-3">Lista de Qrcodes</a>
+                    <a href="#/ranking/{{event._id}}" class="lime-text lighten-3" >Ranking</a>
+
                 </div>
             </div>
         </div>
